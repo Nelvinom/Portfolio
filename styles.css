@@ -58,18 +58,19 @@ background:#069370 ;
 color: #fff;
 transition: 0.5s;
 }
-@media(max-width :1200px ;){
+@media(max-width :1200px ){
     header{
         margin: 20px;
     }
 }
-@media(max-width:  768px ;){
+@media(max-width:  768px )
+{
     .menu-toggle{
         display: block;
         height: 40px;
         width: 40px;
         margin: 10px;
-        background: #ccc;
+        background: rgb(209, 201, 201);
         float:right;
         cursor: pointer;
         text-align: center;
@@ -78,9 +79,12 @@ transition: 0.5s;
 
     }
     .menu-toggle:before{
-        content: '/f0c9';
+        content: f0c9 ;
         font-family:fontAwesome ;
         line-height: 40px;
 
+    }
+    nav{
+        display: none;
     }
 }
