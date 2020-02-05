@@ -4,3 +4,74 @@ body{
     margin:0;
     padding:0;
 }
+header{
+    position: relative;
+    max-width: 1200px;
+    margin:20px auto;
+    padding: 10px;
+    background: darkgray;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+
+}
+.Name {
+    color: darkgreen;
+    height: 70px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.Nelvin{
+    color: seagreen;
+    height: 60px;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 20px ;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a.active,
+nav ul li a:hover{
+background:#069370 ;
+color: #fff;
+transition: 0.5s;
+}
+@media(max-width:  1200px;){
+    header{
+        margin: 20px;
+    }
+}
+@media(max-width:  768px;){
+    .menu-toggle{
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+        background: #ccc;
+        float:right;
+        cursor: pointer;
+    }
+}
