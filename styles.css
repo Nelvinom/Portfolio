@@ -1,37 +1,36 @@
-@import url("https://fonts.googleapis.com/css?family=Merienda+One&display=swap")
+@import url("https://fonts.googleapis.com/css?family=Merienda+One&display=swap");
 body{
     font-family:'Merienda One', cursive;
     margin:0;
     padding:0;
+    background-image: url(https://bit.ly/2v4gNeE);
+    background-size: cover;
+    
 }
 header{
     position: relative;
     max-width: 1200px;
     margin:20px auto;
     padding: 10px;
-    background: darkgray;
     box-sizing: border-box;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-
+   
 }
 .Name {
     color: darkgreen;
     height: 70px;
     font-size: 30px;
     line-height: 30px;
-}
-.Nelvin{
-    color: seagreen;
-    height: 60px;
-    font-size: 35px;
-    line-height: 60px;
-    padding: 0 20px ;
+    padding: 0;
     text-align: center;
     box-sizing: border-box;
     float: left;
     text-decoration: none;
+    margin-top: 10px;
+
 }
+
 nav{
     float: right;
 }
@@ -59,12 +58,12 @@ background:#069370 ;
 color: #fff;
 transition: 0.5s;
 }
-@media(max-width:  1200px;){
+@media(max-width :1200px ;){
     header{
         margin: 20px;
     }
 }
-@media(max-width:  768px;){
+@media(max-width:  768px ;){
     .menu-toggle{
         display: block;
         height: 40px;
@@ -73,5 +72,15 @@ transition: 0.5s;
         background: #ccc;
         float:right;
         cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+
+    }
+    .menu-toggle:before{
+        content: '/f0c9';
+        font-family:fontAwesome ;
+        line-height: 40px;
+
     }
 }
