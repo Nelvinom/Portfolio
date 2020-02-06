@@ -11,7 +11,7 @@
 <body>
     <header>
         <a href="#" class="Name"><strong>Nelvin Omondi<br></strong><em>Web developer</em></a>
-        <div class="menu-toggle">
+        <div class="menu-toggle"></div>
           <nav>
               <ul>
                   <li><a href="#Home" class="Active">Home</a></li>
@@ -20,13 +20,41 @@
                   <li><a href="#Projects">Projects</a></li>
               </ul>
           </nav>
-        </div>
+       
           <div class="clearfix"></div>
     </header>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.menu-toggle').click(function(){
+      $('.menu-toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+    })
+  })
+  </script>
+  <div id="Home">
+  <!-- <h1><span>W</span>
+      <span>e</span>
+      <span>b</span>
+      <span></span>
+      <span>D</span>
+      <span>e</span>
+      <span>v</span> -->
+
+    <h1>Web Developer | Fullstack Developer</h1>
+  <p>Based in Moringa school. Specialized in fullstack web development.<br>
+    If you are business person seeking a web presence or an employer looking to hire,<br> 
+    you can get in touch with me.</p>
+  </div>
+  <table>
+
+  </table>
     
+
+
+
 </body>
 </html>

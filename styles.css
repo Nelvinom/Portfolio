@@ -5,7 +5,8 @@ body{
     padding:0;
     background-image: url(https://bit.ly/2v4gNeE);
     background-size: cover;
-    
+    background-attachment: fixed;
+    background-repeat: no-repeat;    
 }
 header{
     position: relative;
@@ -70,7 +71,7 @@ transition: 0.5s;
         height: 40px;
         width: 40px;
         margin: 10px;
-        background: rgb(209, 201, 201);
+       /* background: rgb(209, 201, 201);*/
         float:right;
         cursor: pointer;
         text-align: center;
@@ -79,7 +80,12 @@ transition: 0.5s;
 
     }
     .menu-toggle:before{
-        content: f0c9 ;
+        content:'\f0c9';
+        font-family:fontAwesome ;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before{
+        content:'\f00d';
         font-family:fontAwesome ;
         line-height: 40px;
 
@@ -87,4 +93,26 @@ transition: 0.5s;
     nav{
         display: none;
     }
+    nav.active{
+        display: block;
+        width: 100%;
+    }
+     nav.active ul{
+     display:block ;
+    }
+    nav.active ul li a{
+        margin: 0;
+       }
+}
+#Home{
+    text-align: center;
+    padding-bottom: 300px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+
+    padding-top: 20%;
+}
+header #Home {
+    line-height: 700px;
 }
