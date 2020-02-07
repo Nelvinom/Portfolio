@@ -82,60 +82,34 @@
     </section>
   </div>
   <div id="Contact">
-   <d\iv class="container">
-    <h2>Contact me</h2>
-    <div class="row100">
-      <div class="col">
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span class="text"> First Name</span>
-          <span class="line"></span>
-        </div>
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contact Us</h2>
       </div>
-
-    </div>
-    <div class="row100">
-      <div class="col">
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span class="text"> Last Name</span>
-          <span class="line"></span>
+      <div class="row">
+        <div class="column">
         </div>
-      </div>
-    </div>
-    <div class="row100">
-      <div class="col">
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span class="text"> Email</span>
-          <span class="line"></span>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="kenya">Kenya</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
         </div>
       </div>
     </div>
-    <div class="row100">
-      <div class="col">
-        <div class="inputBox">
-          <input type="text" name="" required="required">
-          <span class="text">Mobile</span>
-          <span class="line"></span>
-        </div>
-      </div>
-    </div>
-    <div class="row100">
-      <div class="col">
-        <div class="inputBox textarea">
-         <textarea required="required"></textarea>
-          <span class="text">Type your message Here........</span>
-          <span class="line"></span>
-        </div>
-      </div>
-    </div>
-    <div class="row100">
-      <div class="col">
-        <input type="submit" value="Send">
-      </div>
-    </div>
-  </d\iv>
    </div> 
+   
 </body>
 </html>
