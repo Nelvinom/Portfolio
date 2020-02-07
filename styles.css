@@ -10,7 +10,7 @@ body{
     position: relative;
     min-height: 100%;
     top: 0;
-    background-color: ;
+    background-color:darkgray ;
 }
 header{
     max-width: 1200px;
@@ -201,33 +201,25 @@ footer{
     float: left;
     border-radius: 50%;
     margin: 20px;
-    shape-outside: circle(); 
-
-}
-  #Contact h2{
-      color: #fff;
-      font-size: 4em;
-      margin-bottom:10px ;
-
-  }
-  #Contact p{
-    color: #fff;
-    
+    shape-outside: circle();   
 }
  #Contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #03080a;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 10%;
+    background-image: url(https://bit.ly/2v4gNeE);
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
 }
 input[type=text], select, textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(97, 93, 93);
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    border-radius: 4px;
   }
   
   input[type=submit] {
@@ -236,6 +228,7 @@ input[type=text], select, textarea {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
   }
   
   input[type=submit]:hover {
@@ -245,11 +238,8 @@ input[type=text], select, textarea {
   /* Style the container/contact section */
   .container {
     border-radius: 5px;
-    background-image:url(https://bit.ly/2UwxZ79);
-    background-size:cover;
-    background-repeat: no-repeat;
-
     padding: 10px;
+    text-align: left;
   }
   
   /* Create two columns that float next to eachother */
@@ -267,18 +257,23 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
 
   }
+ input[type=text],#country, #subject{
+    background: transparent; 
+    border: none;
+    padding-right: px;
+  }
   
-  /* Clear floats after the columns */
-  .row:after {
+   Clear floats after the columns 
+   .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  } 
+   
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other  */
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }
-  }
+  } 
