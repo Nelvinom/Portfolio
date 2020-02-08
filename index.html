@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nelvin Omondi</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="Name"><strong>Nelvin Omondi<br></strong><em>Web developer</em></a>
+        <div class="menu-toggle"></div>
+          <nav>
+              <ul>
+                  <li><a href="#Home" class="Active">Home</a></li>
+                  <li><a href="#About">About</a></li>
+                  <li><a href="#Contact">Contact</a></li>
+                  <li><a href="#Projects">Projects</a></li>
+              </ul>
+          </nav>
+       
+          <div class="clearfix"></div>
+    </header>
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.menu-toggle').click(function(){
+      $('.menu-toggle').toggleClass('active')
+      $('nav').toggleClass('active')
+    })
+  })
+  </script>
+  <div id="Home">
+  <!-- <h1><span>W</span>
+      <span>e</span>
+      <span>b</span>
+      <span></span>
+      <span>D</span>
+      <span>e</span>
+      <span>v</span> -->
+
+    <h1>Web Developer | Fullstack Developer</h1>
+  <p>Based in Moringa school. Specialized in fullstack web development.<br>
+    If you are business person seeking a web presence or an employer looking to hire,<br> 
+    you can get in touch with me.</p>
+  </div>
+   
+  <div id="About">
+    <h1>About me </h1>
+    <section>
+      <!-- <div class="circle circle1">
+        <img src="./Nelvin.img/37661448_517267422038940_8493490405583618048_o.jpg"> 
+      </div> -->
+      <div class="circle circle2">
+        <img src="./Nelvin.img/IMG_20191009_072359 (copy).jpg">
+      </div>
+      <h2>Omondi Nelvin Okoth</h2>
+      <p>A minimalist who believes in structuring websites that are ultimately<br>
+         geared toward providing the user the best experience possible by having clean user interfaces <br>
+         that align with the business's goals.<br>
+          I am both a self taught web developer and senior majoring in Computer Science at Moringa school.<br>
+           I am always looking for ways to grow as an individual whether being improving technical skills, <br>
+           gaining work experience, or building experience using Github and Slack with a team.
+      <p><h2>'How I became a developer'</h2></p>
+      <p>
+       People can become developers from almost any background,<br>
+        whether they started programming at an early age and majored in computer science (CS),<br>
+       or they taught themselves how to code later in life.<br>
+       These stories focus on how the authors went <br>from being beginning coders to getting that first job.
+      </p>
+      </p>
+      <p class="styles">
+        <h3>Markup and styles</h3>
+        <ul>
+          <li><img src="https://bit.ly/2vTVQmT" ></li>
+        </ul>
+      </p>
+    </section>
+  </div>
+  <div id="Contact">
+    <h1>Contact me</h1>
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="Kenya">Kenya</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div> 
+  </div>
+   <div id="Projects">
+     <h1>My projects that I have been doing.</h1>
+     <p>These are projets that I have been doing since I began my career and <br>they are as follows with there discriptions.</p>
+     <strong>Neom</strong>
+     <p>Neom was my first project.<br> This was more entailed with youths life. <br> After find out that youths in Africa in general have a big challenge of unemployement <br>I really wanted to find out how I can solve this issue and that's why I came up with a website called Neom . <br> Neom is a website that creat a platform to youths specifically where they are  able to be connected to available opportunities.<br>Click the Neom button below to learn more about Neom.</p>
+      <a href="https://nelvinom.github.io/neom/">
+        <button class="button"><span>Neom </span></button>
+      </a>
+     <p><strong>Talanta.ke</strong></p> 
+     <p>Talanta.ke all is youths website too .<br> Talanta.ke is Building a platform that supports youth talent and emerging new ideas.<br> click the button below to learn more about talanta.ke.</p>
+     <a href=" https://nelvinom.github.io/talanta-1/">
+      <button class="button"><span>Talanta.ke </span></button>
+    </a> 
+    
+    </div>
+    <footer class="footer">  Copyright &copy;2020 Home|About me|Contact my social media handles
+      <a href="https://bit.ly/2unIWwA" class="fa fa-facebook"></a>
+      <!-- <a href="#" class="fa fa-twitter"></a> -->
+      <a href="https://bit.ly/374yCau" class="fa fa-youtube"></a>
+      <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+    </footer> 
+</body>
+</html>
