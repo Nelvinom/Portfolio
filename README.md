@@ -1,10 +1,10 @@
-#Introduction &Objectives
+# Introduction &Objectives
 Build a professional portfolio site from scratch, showcasing work and skills that I possess, have created, or acquired, let visitors and potential employers get to know a little about me as a developer.
-##Requirements
+## Requirements
 Responsive on common devices, desktop, tablet, phone etc...
 Javascript functionality, interesting scroll animations
 Flexbox for responsive design
-#Project Timeline
+# Project Timeline
 
 Mockup website using wireframes, create storyboards etc.
 Web design layout in Photoshop
@@ -14,15 +14,15 @@ Merge developer branch with either gh-pages branch or master branch, ultimately 
 Add Javascript functionality
 Check Responsive design on multiple devices via Devtools, and personal iPhone8
 Finalize push to github.
-#Note
-Application was built using VS Code text-ediro
+# Note
+* Application was built using VS Code text-ediro
 
 Built with HTML, CSS, Javascript, 
 
 Additional plugins include animate.css, lo
 #Results
 You can view the live website, hosted via GH-pages below: 
-##MIT license
+## MIT license
 Copyright <2020> <COPYRIGHT Nelvin>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
