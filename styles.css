@@ -179,7 +179,7 @@ footer{
       background-attachment: fixed;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      background-clip: border-box;
+      background-clip: text;
   }
   h1:before{
       content: attr(data-text);
@@ -216,8 +216,8 @@ footer{
       object-fit: cover;
   }
    .circle.circle2{
-    width: 500px;
-    height:500px;
+    width: 200px;
+    height:200px;
     float: left;
     border-radius: 50%;
     margin: 20px;
