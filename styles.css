@@ -179,6 +179,7 @@ footer{
       background-attachment: fixed;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-clip: border-box;
   }
   h1:before{
       content: attr(data-text);
