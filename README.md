@@ -20,7 +20,7 @@
 * Built with HTML, CSS, Javascript, 
 
 * Additional plugins include animate.css, lo
-# Results
+# Results 
 * You can view the live website, hosted via GH-pages below: 
 ## MIT license
 * Copyright <2020> <COPYRIGHT Nelvin>
