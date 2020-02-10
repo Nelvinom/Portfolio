@@ -22,7 +22,7 @@
 * Additional plugins include animate.css, lo
 # Results 
 * You can view the live website, hosted via GH-pages below: 
-*  https://nelvinom.github.io/Portfolio/
+* [Portfolio]  (https://nelvinom.github.io/Portfolio/)
 ## MIT license
 * Copyright <2020> <COPYRIGHT Nelvin>
 
