@@ -119,6 +119,10 @@ transition: 0.5s;
     padding-bottom: 300px;
     padding-top: 20%;
     font-size: 20px;
+    background: rgb(118, 152, 224);
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 header #Home {
     min-height: 50vh;
@@ -169,6 +173,7 @@ footer{
       background-attachment: fixed;
       background-repeat: no-repeat;
       font-size: 20px;
+      background: rgb(97, 93, 93);
 
   }
   #About h1{
@@ -227,7 +232,7 @@ footer{
     text-align: center;
     padding-bottom: 70px;
     padding-top: 0;
-    /* background-image: url(https://bit.ly/2v4gNeE); */
+    background:#8ba09b;
     background-size:cover;
     background-repeat: no-repeat;
     font-size: 20px;
@@ -303,6 +308,10 @@ input[type=text], select, textarea {
     padding-top: 20%;
     font-size: 20px;
     padding:0;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background: magenta;
   } 
   .button {
     border-radius: 4px;
